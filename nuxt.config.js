@@ -61,4 +61,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  router: {
+    base: '/hunter-manage-app/'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
 }
